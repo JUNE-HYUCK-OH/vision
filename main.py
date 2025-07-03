@@ -1,5 +1,8 @@
 import cv2 # OpenCV 로드
-cap = cv2.VideoCapture("data/Megamind.avi")
+cap = cv2.VideoCapture(0)  # 영상파일을 읽어서 비디오객체 cap 생성
+# cap = cv2.VideoCapture("data/Megamind.avi")
+# 영상파일을 읽어서 비디오객체 cap 생성
+
 # 이 파일과 같은 경로에 있는 data 폴더
 # 안에 Megamind.avi를 읽어서  openCV 객체
 # img로 저장
